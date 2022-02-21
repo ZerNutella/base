@@ -6,7 +6,7 @@ public class TrainTachograph{
 	public Table<String,String,Integer> joystickPosition;
 	
 	public TrainTachograph(String ct, String rs, Integer position) {
-		joystickPosition = new Table<String,String,Integer>();
+		joystickPosition = HashBasedTable.create();
 		joystickPosition.put(ct,rs,position);
 	}
 
