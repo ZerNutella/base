@@ -5,10 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class TachographTest {
-	
+	Tachograph tacho;
 	@Before
 	public void before() {
-		Tachograph tacho = new Tachograph("350", "7", 3);
+		tacho = new Tachograph("350", "7", 3);
 	}
 	
 	@Test
