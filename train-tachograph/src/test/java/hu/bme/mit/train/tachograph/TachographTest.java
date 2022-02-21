@@ -8,11 +8,12 @@ public class TachographTest {
 	
 	@Before
 	public void before() {
-		Tachograph tacho = new Tachograph(350, 7, "3","2","10");
+		Tachograph tacho = new Tachograph("350", "7", 3);
 	}
 	
 	@Test
 	public void Tachograph_has_data() {
-		Assert.
+		int currentPosition = tacho.joystickPosition.get("350","7");
+		Assert.assertEquals(3,currentPosition);
 	}
 }
