@@ -1,14 +1,17 @@
-package hu.bme.mit.train.Tachograph;
+package hu.bme.mit.train.tachograph;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import hu.bme.mit.train.tachograph.TrainTachograph
+
 
 public class TachographTest {
-	Tachograph tacho;
+	TrainTachograph tacho;
+	
 	@Before
 	public void before() {
-		tacho = new Tachograph("350", "7", 3);
+		tacho = new TrainTachograph("350", "7", 3);
 	}
 	
 	@Test
