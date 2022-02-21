@@ -1,7 +1,7 @@
 package hu.bme.mit.train.tachograph;
 
 import com.google.common.collect.Table;
-import com.google.common.collect.HashBasedTable<R,C,V>;
+import com.google.common.collect.HashBasedTable;
 
 public class TrainTachograph{
 	public Table<String,String,Integer> joystickPosition;
