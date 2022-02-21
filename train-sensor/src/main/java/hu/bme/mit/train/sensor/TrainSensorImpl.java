@@ -9,7 +9,9 @@ public class TrainSensorImpl implements TrainSensor {
 	private TrainController controller;
 	private TrainUser user;
 	private int speedLimit = 10;
-	//This is branch A
+
+	//This is branch A and branch_B merged
+
 	public TrainSensorImpl(TrainController controller, TrainUser user) {
 		this.controller = controller;
 		this.user = user;
