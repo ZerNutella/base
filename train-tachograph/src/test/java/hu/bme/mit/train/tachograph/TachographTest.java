@@ -1,4 +1,4 @@
-package hu.bme.mit.train.controller;
+package hu.bme.mit.train.Tachograph;
 
 import org.junit.Assert;
 import org.junit.Before;
