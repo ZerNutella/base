@@ -48,8 +48,8 @@ public class TrainControllerImpl implements TrainController {
 	}
 	
 	public void adjustSpeed(){
-		Timer timer = new Timer();
-		 timer.schedule(new TimerTask() {
+		Timer timerVar = new Timer();
+		 timerVar.schedule(new TimerTask() {
 			@Override
 			public void run(){
 				followSpeed(); 

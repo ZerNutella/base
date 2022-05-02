@@ -6,11 +6,6 @@ import hu.bme.mit.train.interfaces.TrainSensor;
 import hu.bme.mit.train.interfaces.TrainUser;
 import hu.bme.mit.train.sensor.TrainSensorImpl;
 import hu.bme.mit.train.user.TrainUserImpl;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 public class TrainSystem {
 
